@@ -1,0 +1,11 @@
+<div *ngFor="let event of events">
+  <nz-card style="width:300px;" [nzHoverable]="true" [nzActions]="[actionEdit, actionDelete]">
+    <nz-card-meta [nzTitle]="event.title" [nzDescription]="event.description" [routerLink]="['/events/' + event.id]"></nz-card-meta>
+  </nz-card>
+  <ng-template #actionEdit>
+    <i class="anticon anticon-edit" [routerLink]="['/events/' + event.id]"></i>
+  </ng-template>
+  <ng-template #actionDelete>
+    <i class="anticon anticon-delete" (click)="deleteEvent(event)"></i>
+  </ng-template>
+</div>

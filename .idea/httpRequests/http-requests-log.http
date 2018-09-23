@@ -1,0 +1,124 @@
+POST https://localhost:5001/api/events
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+<> 2018-09-01T111213.400.json
+
+###
+
+POST https://localhost:5001/api/events
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+<> 2018-09-01T111014.500.html
+
+###
+
+POST https://localhost:5001/api/events
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+<> 2018-09-01T110627.500.html
+
+###
+
+POST https://localhost:5001/api/events/createevent
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+<> 2018-09-01T110552.500.html
+
+###
+
+POST https://localhost:5001/api/events/createevent
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+<> 2018-09-01T123256.500.html
+
+###
+
+POST https://localhost:5001/api/events
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+<> 2018-09-01T123238.500.html
+
+###
+
+POST https://localhost:5001/api/events
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+<> 2018-09-01T122307.500.html
+
+###
+
+POST https://localhost:5001/api/events/createevent
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+<> 2018-09-01T121551.400.json
+
+###
+
+POST https://localhost:5001/api/events/create
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+<> 2018-09-01T121540.404.html
+
+###
+
+POST https://localhost:5001/api/events
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+<> 2018-09-01T121306.404.html
+
+###
+
+POST http://localhost:5000/api/events
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+###
+
+POST http://localhost:5000/api/events
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+###
+
+POST http://localhost:5000/api/events
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"title","description":"description","place":"place"}
+
+###
+

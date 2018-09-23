@@ -1,0 +1,14 @@
+/home/sguillaume/RiderProjects/ExiaGate/Services/bin/Debug/netcoreapp2.1/Services.deps.json
+/home/sguillaume/RiderProjects/ExiaGate/Services/bin/Debug/netcoreapp2.1/Services.dll
+/home/sguillaume/RiderProjects/ExiaGate/Services/bin/Debug/netcoreapp2.1/Services.pdb
+/home/sguillaume/RiderProjects/ExiaGate/Services/bin/Debug/netcoreapp2.1/Data.dll
+/home/sguillaume/RiderProjects/ExiaGate/Services/bin/Debug/netcoreapp2.1/Model.dll
+/home/sguillaume/RiderProjects/ExiaGate/Services/bin/Debug/netcoreapp2.1/Data.pdb
+/home/sguillaume/RiderProjects/ExiaGate/Services/bin/Debug/netcoreapp2.1/Model.pdb
+/home/sguillaume/RiderProjects/ExiaGate/Services/obj/Debug/netcoreapp2.1/Services.csprojAssemblyReference.cache
+/home/sguillaume/RiderProjects/ExiaGate/Services/obj/Debug/netcoreapp2.1/Services.csproj.CoreCompileInputs.cache
+/home/sguillaume/RiderProjects/ExiaGate/Services/obj/Debug/netcoreapp2.1/Services.AssemblyInfoInputs.cache
+/home/sguillaume/RiderProjects/ExiaGate/Services/obj/Debug/netcoreapp2.1/Services.AssemblyInfo.cs
+/home/sguillaume/RiderProjects/ExiaGate/Services/obj/Debug/netcoreapp2.1/Services.csproj.CopyComplete
+/home/sguillaume/RiderProjects/ExiaGate/Services/obj/Debug/netcoreapp2.1/Services.dll
+/home/sguillaume/RiderProjects/ExiaGate/Services/obj/Debug/netcoreapp2.1/Services.pdb

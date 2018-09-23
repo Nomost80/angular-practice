@@ -1,0 +1,9 @@
+/home/sguillaume/RiderProjects/ExiaGate/Model/bin/Debug/netcoreapp2.1/Model.deps.json
+/home/sguillaume/RiderProjects/ExiaGate/Model/bin/Debug/netcoreapp2.1/Model.dll
+/home/sguillaume/RiderProjects/ExiaGate/Model/bin/Debug/netcoreapp2.1/Model.pdb
+/home/sguillaume/RiderProjects/ExiaGate/Model/obj/Debug/netcoreapp2.1/Model.csprojAssemblyReference.cache
+/home/sguillaume/RiderProjects/ExiaGate/Model/obj/Debug/netcoreapp2.1/Model.csproj.CoreCompileInputs.cache
+/home/sguillaume/RiderProjects/ExiaGate/Model/obj/Debug/netcoreapp2.1/Model.AssemblyInfoInputs.cache
+/home/sguillaume/RiderProjects/ExiaGate/Model/obj/Debug/netcoreapp2.1/Model.AssemblyInfo.cs
+/home/sguillaume/RiderProjects/ExiaGate/Model/obj/Debug/netcoreapp2.1/Model.dll
+/home/sguillaume/RiderProjects/ExiaGate/Model/obj/Debug/netcoreapp2.1/Model.pdb

@@ -1,0 +1,17 @@
+{
+  "place": [
+    "'Place' ne doit pas être vide."
+  ],
+  "title": [
+    "'Title' ne doit pas être vide."
+  ],
+  "description": [
+    "'Description' ne doit pas être vide."
+  ],
+  "voteDeadline": [
+    "'Vote Deadline' ne doit pas être vide."
+  ],
+  "enrollmentDeadline": [
+    "'Enrollment Deadline' ne doit pas être vide."
+  ]
+}

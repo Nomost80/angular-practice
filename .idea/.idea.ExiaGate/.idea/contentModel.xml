@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="/app" t="IncludeRecursive" />
+    <e p="/e757e34b" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_ExiaGate.-1996399436.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Data" t="IncludeRecursive">
+        <e p="Abstract" t="Include">
+          <e p="IEntityBaseRepository.cs" t="Include" />
+          <e p="IRepositories.cs" t="Include" />
+        </e>
+        <e p="ApplicationDbContext.cs" t="Include" />
+        <e p="Data.csproj" t="IncludeRecursive" />
+        <e p="Mappings" t="Include">
+          <e p="EventMapping.cs" t="Include" />
+          <e p="UserMapping.cs" t="Include" />
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="EntityBaseRepository.cs" t="Include" />
+          <e p="EventRepository.cs" t="Include" />
+          <e p="UserRepository.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="ExiaGate.sln" t="IncludeFlat" />
+      <e p="Model" t="IncludeRecursive">
+        <e p="Entities" t="Include">
+          <e p="Event.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="IEntityBase.cs" t="Include" />
+        <e p="Model.csproj" t="IncludeRecursive" />
+        <e p="Utils" t="Include">
+          <e p="Slug.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Model.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Services" t="IncludeRecursive">
+        <e p="EventService.cs" t="Include" />
+        <e p="IEventService.cs" t="Include" />
+        <e p="IUserService.cs" t="Include" />
+        <e p="Services.csproj" t="IncludeRecursive" />
+        <e p="UserService.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="WebApp" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="ClientApp" t="Include">
+          <e p=".editorconfig" t="Include" />
+          <e p=".gitignore" t="Include" />
+          <e p="README.md" t="Include" />
+          <e p="angular.json" t="Include" />
+          <e p="dist" t="Include">
+            <e p="3rdpartylicenses.txt" t="Include" />
+            <e p="app-events-events-module-ngfactory.js" t="Include" />
+            <e p="app-events-events-module-ngfactory.js.map" t="Include" />
+            <e p="app-home-home-module-ngfactory.js" t="Include" />
+            <e p="app-home-home-module-ngfactory.js.map" t="Include" />
+            <e p="index.html" t="Include" />
+            <e p="main.js" t="Include" />
+            <e p="main.js.map" t="Include" />
+            <e p="polyfills.js" t="Include" />
+            <e p="polyfills.js.map" t="Include" />
+            <e p="runtime.js" t="Include" />
+            <e p="runtime.js.map" t="Include" />
+            <e p="styles.js" t="Include" />
+            <e p="styles.js.map" t="Include" />
+            <e p="vendor.js" t="Include" />
+            <e p="vendor.js.map" t="Include" />
+          </e>
+          <e p="e2e" t="Include">
+            <e p="app.e2e-spec.ts" t="Include" />
+            <e p="app.po.ts" t="Include" />
+            <e p="tsconfig.e2e.json" t="Include" />
+          </e>
+          <e p="karma.conf.js" t="Include" />
+          <e p="node_modules/@angular/animations" t="IncludeRecursive" />
+          <e p="node_modules/@angular/cdk" t="IncludeRecursive" />
+          <e p="node_modules/@angular/cli" t="IncludeRecursive" />
+          <e p="node_modules/@angular/common" t="IncludeRecursive" />
+          <e p="node_modules/@angular/compiler" t="IncludeRecursive" />
+          <e p="node_modules/@angular/compiler-cli" t="IncludeRecursive" />
+          <e p="node_modules/@angular/core" t="IncludeRecursive" />
+          <e p="node_modules/@angular/forms" t="IncludeRecursive" />
+          <e p="node_modules/@angular/http" t="IncludeRecursive" />
+          <e p="node_modules/@angular/platform-browser" t="IncludeRecursive" />
+          <e p="node_modules/@angular/platform-browser-dynamic" t="IncludeRecursive" />
+          <e p="node_modules/@angular/platform-server" t="IncludeRecursive" />
+          <e p="node_modules/@angular/router" t="IncludeRecursive" />
+          <e p="node_modules/@angular-devkit/build-angular" t="IncludeRecursive" />
+          <e p="node_modules/@nguniversal/module-map-ngfactory-loader" t="IncludeRecursive" />
+          <e p="node_modules/@types" t="IncludeRecursive">
+            <e p="jasmine" t="IncludeRecursive" />
+            <e p="jasminewd2" t="IncludeRecursive" />
+            <e p="node" t="IncludeRecursive" />
+          </e>
+          <e p="node_modules/aspnet-prerendering" t="IncludeRecursive" />
+          <e p="node_modules/codelyzer" t="IncludeRecursive" />
+          <e p="node_modules/core-js" t="IncludeRecursive" />
+          <e p="node_modules/hammerjs" t="IncludeRecursive" />
+          <e p="node_modules/jasmine-core" t="IncludeRecursive" />
+          <e p="node_modules/jasmine-spec-reporter" t="IncludeRecursive" />
+          <e p="node_modules/karma" t="IncludeRecursive" />
+          <e p="node_modules/karma-chrome-launcher" t="IncludeRecursive" />
+          <e p="node_modules/karma-coverage-istanbul-reporter" t="IncludeRecursive" />
+          <e p="node_modules/karma-jasmine" t="IncludeRecursive" />
+          <e p="node_modules/karma-jasmine-html-reporter" t="IncludeRecursive" />
+          <e p="node_modules/ng-zorro-antd" t="IncludeRecursive" />
+          <e p="node_modules/node-sass" t="IncludeRecursive" />
+          <e p="node_modules/protractor" t="IncludeRecursive" />
+          <e p="node_modules/rxjs" t="IncludeRecursive" />
+          <e p="node_modules/ts-node" t="IncludeRecursive" />
+          <e p="node_modules/tslint" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.dom.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.dom.iterable.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2015.collection.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2015.core.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2015.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2015.generator.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2015.iterable.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2015.promise.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2015.proxy.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2015.reflect.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2015.symbol.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2016.array.include.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2016.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2016.full.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2017.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2017.full.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2017.intl.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2017.object.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2017.string.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2017.typedarrays.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2018.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2018.full.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2018.intl.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2018.promise.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es2018.regexp.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es5.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.es6.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.esnext.array.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.esnext.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.esnext.full.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.scripthost.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/typescript/lib/lib.webworker.d.ts" t="IncludeRecursive" />
+          <e p="node_modules/zone.js" t="IncludeRecursive" />
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="protractor.conf.js" t="Include" />
+          <e p="src" t="Include">
+            <e p="app" t="Include">
+              <e p="app-routing.module.ts" t="Include" />
+              <e p="app.component.css" t="Include" />
+              <e p="app.component.html" t="Include" />
+              <e p="app.component.ts" t="Include" />
+              <e p="app.module.ts" t="Include" />
+              <e p="core" t="Include">
+                <e p="core.module.ts" t="Include" />
+                <e p="server-response.ts" t="Include" />
+                <e p="toast.service.spec.ts" t="Include" />
+                <e p="toast.service.ts" t="Include" />
+              </e>
+              <e p="events" t="Include">
+                <e p="add-event" t="Include">
+                  <e p="add-event.component.css" t="Include" />
+                  <e p="add-event.component.html" t="Include" />
+                  <e p="add-event.component.spec.ts" t="Include" />
+                  <e p="add-event.component.ts" t="Include" />
+                </e>
+                <e p="edit-event" t="Include">
+                  <e p="edit-event.component.css" t="Include" />
+                  <e p="edit-event.component.html" t="Include" />
+                  <e p="edit-event.component.spec.ts" t="Include" />
+                  <e p="edit-event.component.ts" t="Include" />
+                </e>
+                <e p="event-detail" t="Include">
+                  <e p="event-detail.component.css" t="Include" />
+                  <e p="event-detail.component.html" t="Include" />
+                  <e p="event-detail.component.spec.ts" t="Include" />
+                  <e p="event-detail.component.ts" t="Include" />
+                </e>
+                <e p="event-list" t="Include">
+                  <e p="event-list.component.css" t="Include" />
+                  <e p="event-list.component.html" t="Include" />
+                  <e p="event-list.component.spec.ts" t="Include" />
+                  <e p="event-list.component.ts" t="Include" />
+                </e>
+                <e p="events-routing.module.ts" t="Include" />
+                <e p="events.module.ts" t="Include" />
+                <e p="shared" t="Include">
+                  <e p="event-error.ts" t="Include" />
+                  <e p="event.service.spec.ts" t="Include" />
+                  <e p="event.service.ts" t="Include" />
+                  <e p="event.ts" t="Include" />
+                </e>
+              </e>
+              <e p="home" t="Include">
+                <e p="home.component.html" t="Include" />
+                <e p="home.component.ts" t="Include" />
+                <e p="home.module.ts" t="Include" />
+              </e>
+              <e p="nav-menu" t="Include">
+                <e p="nav-menu.component.css" t="Include" />
+                <e p="nav-menu.component.html" t="Include" />
+                <e p="nav-menu.component.ts" t="Include" />
+                <e p="nav-menu.module.spec.ts" t="Include" />
+                <e p="nav-menu.module.ts" t="Include" />
+              </e>
+              <e p="shared" t="Include">
+                <e p="shared.module.ts" t="Include" />
+              </e>
+            </e>
+            <e p="assets" t="Include">
+              <e p=".gitkeep" t="Include" />
+            </e>
+            <e p="environments" t="Include">
+              <e p="environment.prod.ts" t="Include" />
+              <e p="environment.ts" t="Include" />
+            </e>
+            <e p="index.html" t="Include" />
+            <e p="main.ts" t="Include" />
+            <e p="polyfills.ts" t="Include" />
+            <e p="styles.css" t="Include" />
+            <e p="test.ts" t="Include" />
+            <e p="tsconfig.app.json" t="Include" />
+            <e p="tsconfig.spec.json" t="Include" />
+            <e p="typings.d.ts" t="Include" />
+          </e>
+          <e p="tsconfig.json" t="Include" />
+          <e p="tslint.json" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="EventsController.cs" t="Include" />
+          <e p="UsersController.cs" t="Include" />
+        </e>
+        <e p="Core" t="Include">
+          <e p="ErrorHandler.cs" t="Include" />
+          <e p="ServerResponse.cs" t="Include" />
+        </e>
+        <e p="Dtos" t="Include">
+          <e p="EventFormDto.cs" t="Include" />
+          <e p="LoginDto.cs" t="Include" />
+          <e p="MappingProfiles.cs" t="Include" />
+          <e p="RegistrationDto.cs" t="Include" />
+          <e p="Validators" t="Include">
+            <e p="EventFormDtoValidator.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20180831154239_CreateEventsTable.Designer.cs" t="Include" />
+          <e p="20180831154239_CreateEventsTable.cs" t="Include" />
+          <e p="20180906154254_AddAddressAndTimestampsToEvents.Designer.cs" t="Include" />
+          <e p="20180906154254_AddAddressAndTimestampsToEvents.cs" t="Include" />
+          <e p="20180913144421_CreateUsers.Designer.cs" t="Include" />
+          <e p="20180913144421_CreateUsers.cs" t="Include" />
+          <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Pages" t="Include">
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="_ViewImports.cshtml" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="README.md" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="WebApp.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="WebApp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="favicon.ico" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

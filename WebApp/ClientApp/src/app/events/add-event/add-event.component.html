@@ -1,0 +1,93 @@
+<form nz-form [formGroup]="eventForm" (ngSubmit)="onSubmit()">
+  <nz-form-item>
+    <nz-form-label [nzSm]="6" [nzRequired]="true">Titre</nz-form-label>
+    <nz-form-control [nzSm]="6" [nzHasFeedback]="true" [nzValidateStatus]>
+      <input nz-input formControlName="title" placeholder="Titre" />
+      <nz-form-explain *ngFor="let message of error?.data?.title">
+        {{message}}
+      </nz-form-explain>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzRequired]="true">Description</nz-form-label>
+    <nz-form-control [nzHasFeedback]="true" [nzValidateStatus]>
+      <input nz-input formControlName="description" placeholder="Description" />
+      <nz-form-explain *ngFor="let message of error?.data?.description">
+        {{message}}
+      </nz-form-explain>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label>Prix</nz-form-label>
+    <nz-form-control [nzHasFeedback]="true" [nzValidateStatus]>
+      <input type="number" nz-input formControlName="price" placeholder="Prix" />
+      <nz-form-explain *ngFor="let message of error?.data?.price">
+        {{message}}
+      </nz-form-explain>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label>Question</nz-form-label>
+    <nz-form-control [nzHasFeedback]="true" [nzValidateStatus]>
+      <textarea nz-input formControlName="question" placeholder="Question aux potentiels participants"></textarea>
+      <nz-form-explain *ngFor="let message of error?.data?.question">
+        {{message}}
+      </nz-form-explain>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzRequired]="true">Addresse</nz-form-label>
+    <nz-form-control [nzHasFeedback]="true" [nzValidateStatus]>
+      <input nz-input formControlName="address" placeholder="Addresse" />
+      <nz-form-explain *ngFor="let message of error?.data?.address">
+        {{message}}
+      </nz-form-explain>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzRequired]="true">Code postale</nz-form-label>
+    <nz-form-control [nzHasFeedback]="true" [nzValidateStatus]>
+      <input type="number" nz-input formControlName="postcode" placeholder="Code postale" />
+      <nz-form-explain *ngFor="let message of error?.data?.postcode">
+        {{message}}
+      </nz-form-explain>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzRequired]="true">Ville</nz-form-label>
+    <nz-form-control [nzHasFeedback]="true" [nzValidateStatus]>
+      <input nz-input formControlName="city" placeholder="Ville" />
+      <nz-form-explain *ngFor="let message of error?.data?.city">
+        {{message}}
+      </nz-form-explain>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzRequired]="true">Pays</nz-form-label>
+    <nz-form-control [nzHasFeedback]="true" [nzValidateStatus]>
+      <input nz-input formControlName="country" placeholder="Pays" />
+      <nz-form-explain *ngFor="let message of error?.data?.country">
+        {{message}}
+      </nz-form-explain>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label>Deadline du choix de la date</nz-form-label>
+    <nz-form-control [nzHasFeedback]="true" [nzValidateStatus]>
+      <nz-date-picker formControlName="voteDeadline"></nz-date-picker>
+      <nz-form-explain *ngFor="let message of error?.data?.voteDeadline">
+        {{message}}
+      </nz-form-explain>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label>Deadline de participation</nz-form-label>
+    <nz-form-control [nzHasFeedback]="true" [nzValidateStatus]>
+      <nz-date-picker formControlName="enrollmentDeadline"></nz-date-picker>
+      <nz-form-explain *ngFor="let message of error?.data?.enrollmentDeadline">
+        {{message}}
+      </nz-form-explain>
+    </nz-form-control>
+  </nz-form-item>
+  <button type="submit" nz-button [nzType]="'primary'" [disabled]="!eventForm.valid">Valider</button>
+</form>
